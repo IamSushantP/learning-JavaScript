@@ -56,29 +56,48 @@
          Symbol (as a primitive type): Represents a unique identifier, primarily used as object property keys to avoid name clashes.
 
 
-   
+   # Datatype conversion
+      In JavaScript, you can convert data types using the following methods:
+      1.  **toString()**: Converts a value to a string. 
+      //var abc = 10;
+      //console.log(abc.toString()); // Output: "10"
+      2.  **valueOf()**: Returns the primitive value of an object.
+      //var abc = 10;
+      //console.log(abc.valueOf()); // Output: 10
+      3.  **Number()**: Converts a value to a number.
+      //var abc = "10";
+      //console.log(Number(abc)); // Output: 10
+      4.  **String()**: Converts a value to a string.
+      //var abc = 10;
+      //console.log(String(abc)); // Output: "10"
+      5.  **Boolean()**: Converts a value to a boolean.
+      //var abc = 10;
+      //console.log(Boolean(abc)); // Output: true
+      6.  **parseInt()**: Parses a string argument and returns an integer of the specified
+      // var k = "10";
+      // console.log(parseInt(k)); // Output: 10
+      7.  **parseFloat()**: Parses a string argument and returns a floating point number of
+      // var k = "10.5";
+      // console.log(parseFloat(k)); // Output: 10.5
 
-# Datatype conversion
-   In JavaScript, you can convert data types using the following methods:
-   1.  **toString()**: Converts a value to a string. 
-   //var abc = 10;
-   //console.log(abc.toString()); // Output: "10"
-   2.  **valueOf()**: Returns the primitive value of an object.
-   //var abc = 10;
-   //console.log(abc.valueOf()); // Output: 10
-   3.  **Number()**: Converts a value to a number.
-   //var abc = "10";
-   //console.log(Number(abc)); // Output: 10
-   4.  **String()**: Converts a value to a string.
-   //var abc = 10;
-   //console.log(String(abc)); // Output: "10"
-   5.  **Boolean()**: Converts a value to a boolean.
-   //var abc = 10;
-   //console.log(Boolean(abc)); // Output: true
-   6.  **parseInt()**: Parses a string argument and returns an integer of the specified
-   // var k = "10";
-   // console.log(parseInt(k)); // Output: 10
-   7.  **parseFloat()**: Parses a string argument and returns a floating point number of
-   // var k = "10.5";
-   // console.log(parseFloat(k)); // Output: 10.5
-   
+   # DataTye Operations
+      In JavaScript, you can perform operations on data types using the following methods:
+      1.  **Arithmetic Operations**: You can perform arithmetic operations like addition, subtraction, multiplication
+      and division on numbers using the following operators: +, -, \*, /, % etc.
+      //var a = 10;
+      //var b = 5;
+      //console.log(a + b); // Output: 15
+      //console.log(a - b); // Output: 5
+      //console.log(a \* b); // Output: 50
+      //console.log(a / b); // Output: 2
+      2.  **Comparison Operations**: You can perform comparison operations like equality, inequality, greater than,
+      less than, greater than or equal to, less than or equal to using the following operators: ==
+      !=, >, <, >=, <= etc.
+      //var a = 10;
+      //var b = 5;
+      //console.log(a == b); // Output: false
+      //console.log(a != b); // Output: true
+
+
+
+     

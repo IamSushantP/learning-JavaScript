@@ -18,7 +18,10 @@ console.log(typeof (InteMyNumber));
 let BooleanValue = Boolean(MyNumber);
 console.log(BooleanValue);
 console.log(typeof (BooleanValue));
+var my = "";
+console.log(my);
+let BooleanValue1 = Boolean(my);
+console.log(BooleanValue1);
 
-
-// console.log(EmailAdd);
+// console.log(EmailAdd
 console.table([State, AccontNumber, EmailAdd, Password, City, test]);
