@@ -57,3 +57,28 @@
 
 
    
+
+# Datatype conversion
+   In JavaScript, you can convert data types using the following methods:
+   1.  **toString()**: Converts a value to a string. 
+   //var abc = 10;
+   //console.log(abc.toString()); // Output: "10"
+   2.  **valueOf()**: Returns the primitive value of an object.
+   //var abc = 10;
+   //console.log(abc.valueOf()); // Output: 10
+   3.  **Number()**: Converts a value to a number.
+   //var abc = "10";
+   //console.log(Number(abc)); // Output: 10
+   4.  **String()**: Converts a value to a string.
+   //var abc = 10;
+   //console.log(String(abc)); // Output: "10"
+   5.  **Boolean()**: Converts a value to a boolean.
+   //var abc = 10;
+   //console.log(Boolean(abc)); // Output: true
+   6.  **parseInt()**: Parses a string argument and returns an integer of the specified
+   // var k = "10";
+   // console.log(parseInt(k)); // Output: 10
+   7.  **parseFloat()**: Parses a string argument and returns a floating point number of
+   // var k = "10.5";
+   // console.log(parseFloat(k)); // Output: 10.5
+   
