@@ -1,6 +1,6 @@
 # learning-JavaScript
    Repo of Javascript learning with Notes
-
+   JavaScript is a dynamically typed language
 
    # Variables in Javascript  -->   
       var x = 5; // declare and assign a value to a variable  (20/08/2024)
@@ -36,19 +36,19 @@
 
 
    # Datatypes in Javascript
-      Primitive Data Types: (23/08/2023)
+      Primitive Data Types: (23/08/2023) //call by value
          Number: Represents numeric data, including integers and floating-point numbers.
          String: Represents textual data, enclosed within single or double quotes.
          Boolean: Represents a logical value, either true or false.
          Undefined: Represents a variable that has been declared but not assigned a value.
          Null: Represents the intentional absence of any object value.
          Symbol (introduced in ECMAScript 6): Represents a unique identifier.
+         BigInt
 
-
-      Composite Data Types:
-         Object: Represents a collection of key-value pairs, where values can be primitives or other objects. Objects can be created using object literals {}, the new Object() syntax, or through constructors.
-         Array: Represents a list-like collection of elements, where elements can be of any data type. Arrays can be created using array literals [] or the new Array() syntax.
-         Function: Represents executable code and can be treated as objects. Functions can be defined using function declarations, function expressions, arrow functions, etc.
+         Non-primitive / Reference Type:
+               Object: Represents a collection of key-value pairs, where values can be primitives or other objects. Objects can be created using object literals {}, the new Object() syntax, or through constructors.
+               Array: Represents a list-like collection of elements, where elements can be of any data type. Arrays can be created using array literals [] or the new Array() syntax.
+               Function: Represents executable code and can be treated as objects. Functions can be defined using function declarations, function expressions, arrow functions, etc.
 
 
       Special Data Types:
@@ -99,5 +99,3 @@
       //console.log(a != b); // Output: true
 
 
-
-     
